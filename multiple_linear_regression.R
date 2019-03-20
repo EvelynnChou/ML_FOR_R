@@ -16,7 +16,7 @@ split = sample.split(dataset$Profit, SplitRatio = 0.8)
 training_set = subset(dataset, split == TRUE)
 test_set = subset(dataset, split == FALSE)
 
-# Feature Scaling(R???h???^?k???w?g?۱a?S?x?Y??)
+# Feature Scaling
 # training_set[, 2:3] = scale(training_set[, 2:3])
 # test_set[, 2:3] = scale(test_set[, 2:3])
 
