@@ -1,1 +1,1 @@
-# ML_FOR_R
+# MachineLearning_in_R
